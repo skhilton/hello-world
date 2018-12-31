@@ -11,7 +11,7 @@ SKH 20181231
 
 Most of the time, you will only need to use four `git` commands: add, commit, push, and pull.
 
-### Retrive changes
+### Retrieve changes
 
 To get changes from `Github` to your local copy: `git pull`
 
