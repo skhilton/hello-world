@@ -5,7 +5,7 @@ SKH 20181231
 
 [`Markdown`](https://en.wikipedia.org/wiki/Markdown) is a way to format text using plain text syntax.  
 This [`README.md`](README.md) is written in `Markdown`.
-To see the plain text version of this page, click [`HERE`](README.md).
+To see the plain text version of this page, click [`HERE`](https://raw.githubusercontent.com/skhilton/hello-world/master/markdown/README.md).
 
 `Markdown`, or a slight variation, is used in [`jupyter notebook`](../jupyter_notebook/README.md), `slack`, and `RStudio`.
 
@@ -20,7 +20,7 @@ To see the plain text version of this page, click [`HERE`](README.md).
 * Create headings with `#`. The more `#`s the smaller the text
 * Create bulleted lists by starting a line with `*` and a space.
 
-Once again, click [`HERE`](README.md) to examples of all the formatting above. 
+Once again, click [`HERE`](https://raw.githubusercontent.com/skhilton/hello-world/master/markdown/README.md) to examples of all the formatting above.
 
 ## Tips and Tricks
 
