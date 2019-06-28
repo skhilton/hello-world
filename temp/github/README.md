@@ -27,3 +27,14 @@ To push changes from your local copy to `Github`:
 * Each project/paper should have its own `Github` repo.   
 
 ## Oh no! I broke my repo...
+
+## How do I ...
+
+## delete a branch?
+
+`branch -d branch_name`
+
+## create a pull request from the command line?
+
+## render latex
+https://guides.github.com/features/mastering-markdown/
