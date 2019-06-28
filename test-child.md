@@ -1,10 +1,10 @@
 ---
-title: Child of Test
-parent: Test
+title: Pull Request
+parent: Github
 has_children: true
 nav_order: 1
 ---
 
-# Child of test
+# Creating a pull request
 
-I am a child page.
+Here is how you make a pull request from the command line

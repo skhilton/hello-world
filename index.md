@@ -2,21 +2,21 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "links and notes and etc."
 permalink: /
 ---
 
-# Focus on writing good documentation
+# landing page
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+This website is for links and notes ad et.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[button1](#heading-1){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [button2](#heading-2){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## Getting started
+## heading 1
 
 ### Dependencies
 
@@ -66,7 +66,7 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 
 ---
 
-## About the project
+## heading 2
 
 Just the Docs is &copy; 2017-2019 by [Patrick Marsceill](http://patrickmarsceill.com).
 
