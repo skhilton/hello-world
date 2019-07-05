@@ -3,7 +3,6 @@ layout: default
 title: Github
 nav_order: 2
 has_children: true
-<!-- permalink: /docs/ui-components -->
 ---
 
 # Github
