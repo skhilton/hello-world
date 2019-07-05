@@ -5,93 +5,12 @@ parent: site maintenance
 nav_order: 2
 ---
 
-# Buttons
-{: .no_toc }
+# local build for development
 
-## Table of contents
-{: .no_toc .text-delta }
+To set up the website, I followed the [`just-the-docs` documentation](https://pmarsceill.github.io/just-the-docs/).
 
-1. TOC
-{:toc}
+After making changes, you can do a local build to check the changes before deploying to Github Pages.
+Use the command `bundle exec jekyll serve`.
 
----
-
-## Basic button styles
-
-### Links that look like buttons
-
-<div class="code-example" markdown="1">
-[Link button](http://example.com/){: .btn }
-
-[Link button](http://example.com/){: .btn .btn-purple }
-[Link button](http://example.com/){: .btn .btn-blue }
-[Link button](http://example.com/){: .btn .btn-green }
-
-[Link button](http://example.com/){: .btn .btn-outline }
-</div>
-```markdown
-[Link button](http://example.com/){: .btn }
-
-[Link button](http://example.com/){: .btn .btn-purple }
-[Link button](http://example.com/){: .btn .btn-blue }
-[Link button](http://example.com/){: .btn .btn-green }
-
-[Link button](http://example.com/){: .btn .btn-outline }
-```
-
-### Button element
-
-GitHub Flavored Markdown does not support the `button` element, so you'll have to use inline HTML for this:
-
-<div class="code-example">
-<button type="button" name="button" class="btn">Button element</button>
-</div>
-```html
-<button type="button" name="button" class="btn">Button element</button>
-```
-
----
-
-## Using utilities with buttons
-
-### Button size
-
-Wrap the button in a container that uses the [font-size utility classes]({{ site.baseurl }}{% link docs/utilities/typography.md %}) to scale buttons:
-
-<div class="code-example" markdown="1">
-<span class="fs-6">
-[Big ass button](http://example.com/){: .btn }
-</span>
-
-<span class="fs-3">
-[Tiny ass button](http://example.com/){: .btn }
-</span>
-</div>
-```markdown
-<span class="fs-8">
-[Link button](http://example.com/){: .btn }
-</span>
-
-<span class="fs-3">
-[Tiny ass button](http://example.com/){: .btn }
-</span>
-```
-
-### Spacing between buttons
-
-Use the [margin utility classes]({{ site.baseurl }}{% link docs/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
-
-<div class="code-example" markdown="1">
-[Button with space](http://example.com/){: .btn .btn-purple .mr-2 }
-[Button ](http://example.com/){: .btn .btn-blue .mr-2 }
-
-[Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
-[Button ](http://example.com/){: .btn .btn-blue }
-</div>
-```markdown
-[Button with space](http://example.com/){: .btn .btn-purple .mr-2 }
-[Button ](http://example.com/){: .btn .btn-blue }
-
-[Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
-[Button ](http://example.com/){: .btn .btn-blue }
-```
+Note: there is some disconnect between the local Gem file and how Github Pages deploys.
+Specifically, it seems that markdown files in subdirectories are included on the Github pages even if they are not included in the local build. 
