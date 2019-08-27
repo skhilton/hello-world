@@ -1,6 +1,6 @@
 ---
 title: new branch
-parent: misc
+parent: misc.
 nav_order: 2
 ---
 
