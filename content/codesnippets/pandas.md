@@ -1,6 +1,6 @@
 ---
 layout: default
-title: `pandas`
+title: pandas
 parent: python
 nav_order: 1
 ---
