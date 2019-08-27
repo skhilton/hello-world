@@ -2,8 +2,9 @@
 layout: default
 title: python
 parent: code snippets
-has_children: true
-nav_order: 1
+nav_order: 2
 ---
 
 # `python`
+
+python code
