@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: home
 nav_order: 1
 description: "links and notes and etc."
 permalink: /
