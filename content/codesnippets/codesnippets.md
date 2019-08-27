@@ -1,12 +1,12 @@
 ---
 layout: default
 title: code snippets
-nav_order: 2
+nav_order: 1
 has_children: true
 ---
 
 # code snippets
 
-Here are small one-liners for various languages. 
+One liners from various langauges
 
 {: .fs-6 .fw-300 }
