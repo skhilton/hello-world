@@ -1,6 +1,7 @@
 ---
+layout: default
 title: new branch
-parent: Github
+parent: github
 nav_order: 2
 ---
 

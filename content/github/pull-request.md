@@ -1,6 +1,7 @@
 ---
-title: Pull Request
-parent: Github
+layout: default
+title: pull request
+parent: github
 has_children: true
 nav_order: 1
 ---
