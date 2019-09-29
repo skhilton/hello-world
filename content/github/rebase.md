@@ -16,5 +16,5 @@ I added, committed, and pushed the file I missed (commit B) and then
 3. Changed `pick` to `squash` for commit B  
 4. closed the file  
 5. `git push origin brush-selection --force` where brush-selection is my working branch
-6. 
+
 Another use for this series of commands is to clean up your git history.  
