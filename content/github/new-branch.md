@@ -20,3 +20,13 @@ To checkout this branch use:
 ```
 git checkout --track origin/feature_branch_name
 ```
+
+# [stashing changes to switch branches](http://www.codeblocq.com/2016/02/Stash-your-changes-before-switching-branch/)  
+
+on the development branch  
+```
+git stash save "message"  
+git checkout master   
+git chckout development-branch   
+git stash pop  
+```
