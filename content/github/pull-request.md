@@ -6,6 +6,6 @@ has_children: true
 nav_order: 1
 ---
 
-# Creating a pull request
+# deleting a branch 
 
-Here is how you make a pull request from the command line
+https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
