@@ -30,3 +30,5 @@ git checkout master
 git chckout development-branch   
 git stash pop  
 ```
+
+# delete a branch
