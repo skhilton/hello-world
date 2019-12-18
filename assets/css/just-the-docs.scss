@@ -30,6 +30,10 @@
 @import "./color_schemes/dark.scss";
 {% endif %}
 
+{% if site.color_scheme == "royaltenenbaums" %}
+@import "./color_schemes/royaltenenbaums.scss";
+{% endif %}
+
 // Modules
 @import "./base";
 @import "./layout";
