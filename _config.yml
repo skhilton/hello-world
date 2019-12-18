@@ -30,7 +30,7 @@ aux_links:
     - "//github.com/skhilton/hello-world"
 
 # Color scheme currently only supports "dark" or nil (default)
-color_scheme: nil
+color_scheme: dark
 
 plugins:
   - jekyll-seo-tag
