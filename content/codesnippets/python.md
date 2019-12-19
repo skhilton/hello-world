@@ -12,4 +12,8 @@ nav_order: 2
 
 # python
 
+## programing notes
+
+[Design Patterns (Andrei Boyanov)](/hello-world/content/codesnippets/notes_andrei_boyanov/)
+
 # pandas
