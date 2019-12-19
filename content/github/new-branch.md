@@ -31,4 +31,8 @@ git chckout development-branch
 git stash pop  
 ```
 
-# delete a branch
+# [delete a branch](https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323)
+```
+git branch -d branch_name
+git branch -D branch_name
+```
