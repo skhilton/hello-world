@@ -26,7 +26,7 @@ communications between objects.
 Python has 11:  
 
 1. [chain of responsibility](#chain-of-responsibility)
-2. [command](command)
+2. [command](#command)
 3. interpreter
 4. iterator
 5. mediator
