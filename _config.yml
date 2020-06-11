@@ -19,8 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: skh notes
+email: skhilton@uw.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  notes about coding and etc.
+  notes on coding etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  skhilton
@@ -29,8 +30,6 @@ github_username:  skhilton
 theme: minima
 plugins:
   - jekyll-feed
-  - jemoji
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
